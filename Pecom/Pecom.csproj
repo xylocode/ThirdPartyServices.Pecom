@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	  <ImplicitUsings>disable</ImplicitUsings>
+	  <Nullable>disable</Nullable>
+	  <AssemblyName>XyloCode.ThirdPartyServices.Pecom</AssemblyName>
+	  <RootNamespace>XyloCode.ThirdPartyServices.Pecom</RootNamespace>
+	  <PackageId>XyloCode.ThirdPartyServices.Pecom</PackageId>
+	  <Title>PEC</Title>
+	  <Authors>xylocode</Authors>
+	  <Copyright>Copyright (c) 2023 Sergey Korobeynikov</Copyright>
+	  <PackageTags>PEC; pecom.ru; API</PackageTags>
+	  <PackageIcon>LOGO.png</PackageIcon>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Product>XyloCode.ThirdPartyServices.Pecom</Product>
+	  <Description>Unofficial .NET library for accessing the PEC API with partial implementation (order pick-up points, calculator).</Description>
+	  <PackageProjectUrl>https://xylocode.com/third-party-services/pecom/</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/xylocode/ThirdPartyServices.Pecom</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReleaseNotes>First release. Requires debugging, performance is not guaranteed.</PackageReleaseNotes>
+	  <ApplicationIcon>favicon.ico</ApplicationIcon>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+	
+	<ItemGroup>
+		<Content Include="favicon.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LOGO.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+</Project>
