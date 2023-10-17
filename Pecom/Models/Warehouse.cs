@@ -111,6 +111,13 @@ namespace XyloCode.ThirdPartyServices.Pecom.Models
         [JsonPropertyName("coordinates")]
         public string Coordinates { get; set; }
 
+        [JsonPropertyName("longitude")]
+        public double? Longitude { get; set; }
+
+        [JsonPropertyName("latitude")]
+        public double? Latitude {  get; set; }
+
+
         [JsonPropertyName("email")]
         public string Email { get; set; }
 
