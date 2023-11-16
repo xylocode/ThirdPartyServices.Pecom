@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	  <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 	  <ImplicitUsings>disable</ImplicitUsings>
 	  <Nullable>disable</Nullable>
 	  <AssemblyName>XyloCode.ThirdPartyServices.Pecom</AssemblyName>
@@ -14,7 +14,7 @@
 	  <PackageIcon>LOGO.png</PackageIcon>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <Product>XyloCode.ThirdPartyServices.Pecom</Product>
-	  <Version>1.0.2</Version>
+	  <Version>1.1.0</Version>
 	  <Description>Unofficial .NET library for accessing the PEC API with partial implementation (order pick-up points, calculator).</Description>
 	  <PackageProjectUrl>https://xylocode.com/third-party-services/pecom/</PackageProjectUrl>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -22,7 +22,7 @@
 	  <RepositoryType>git</RepositoryType>
 	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <PackageReleaseNotes>First release. Requires debugging, performance is not guaranteed. Enabled GenerateDocumentationFile option.</PackageReleaseNotes>
+	  <PackageReleaseNotes>NET 8.0 support.</PackageReleaseNotes>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
